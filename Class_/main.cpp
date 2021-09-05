@@ -99,8 +99,11 @@ void test08() {
 }
 // 友元
 void test09() {
-    Building b1;
-    myFriends(b1);
+    // Building b1;
+    // myFriends(b1);
+    MyFriends m1;
+    m1.Vist();
+
 }
 
 int main() {
