@@ -5,6 +5,8 @@
 #include "Cube.h"
 #include "Point.h"
 #include "Person.h"
+#include "ClaConst.h"
+#include "Friend.h"
 
 
 using namespace std;
@@ -87,10 +89,22 @@ void test07() {
     Struct_S s1;
     cout<<"sizeof(s1):"<<sizeof(s1)<<endl;
 }
+// 常函数与常对象
+void test08() {
+    //  1.常对象与常函数一致，都不可改变成员属性。2.常对象仅仅能调用常函数。
+    const Cla c1;
+    //  c1.m_A = 10;
+    c1.m_B = 12;
+    c1.show2();
+}
+// 友元
+void test09() {
+    Building b1;
+    myFriends(b1);
+}
 
 int main() {
-
-    test07();
+    test09();
     return 0;
 }
 
