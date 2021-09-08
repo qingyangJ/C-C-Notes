@@ -1,6 +1,7 @@
 #include "Poly.h"
 #include "Caculator.h"
 #include "Cook.h"
+#include "Computer.h"
 
 #include<iostream>
 
@@ -45,8 +46,23 @@ void test02() {
     c = nullptr;
 
 }
+
+void test03() {
+    // Computer *com = new Computer(new IntelCPU, 
+    //                      new IntelVCard, new IntelMem);
+    // com->assemble();
+    // delete com;
+    // com = nullptr;
+    Computer com(new IntelCPU, new IntelVCard, new IntelMem);
+    com.assemble();
+    
+}
+
+
+
+
 int main () {
-    test02();
+    test03();
     return 0;
 }
  

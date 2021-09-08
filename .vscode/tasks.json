@@ -7,13 +7,16 @@
             "args": [
                 "-g",
                 "./main.cpp",
-                "./src/Person.cpp",
+                "./src/Caculator.cpp",
+                "./src/Poly.cpp",
+                "./src/Cook.cpp", 
+                "./src/Computer.cpp",
                 "-Iinclude",
                 "-o",
-                "${workspaceFolder}/Class_/PD.exe"
+                "${workspaceFolder}/Poly/main.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/Class_"
+                "cwd": "${workspaceFolder}/Poly"
             },
             "problemMatcher": [
                 "$gcc"
