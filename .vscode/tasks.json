@@ -7,16 +7,11 @@
             "args": [
                 "-g",
                 "./main.cpp",
-                "./src/Caculator.cpp",
-                "./src/Poly.cpp",
-                "./src/Cook.cpp", 
-                "./src/Computer.cpp",
-                "-Iinclude",
                 "-o",
-                "${workspaceFolder}/Poly/main.exe"
+                "${workspaceFolder}/FileOperator/main.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}/Poly"
+                "cwd": "${workspaceFolder}/FileOperator"
             },
             "problemMatcher": [
                 "$gcc"
