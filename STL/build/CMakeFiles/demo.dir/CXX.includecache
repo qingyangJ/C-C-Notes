@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Example.h
+string
+-
+vector
+-
+list
+-
+
+D:/C++Demo/C++Primer/points/STL/src/Example.cpp
+Example.h
+D:/C++Demo/C++Primer/points/STL/src/Example.h
+iostream
+-
+string
+-
+vector
+-
+deque
+-
+list
+-
+algorithm
+-
+ctime
+-
+
