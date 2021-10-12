@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Func.h
+
+../include/Pred.h
+
+D:/C++Demo/C++Primer/points/FuncObj/main.cpp
+iostream
+-
+Pred.h
+D:/C++Demo/C++Primer/points/FuncObj/Pred.h
+Func.h
+D:/C++Demo/C++Primer/points/FuncObj/Func.h
+
+D:/C++Demo/C++Primer/points/FuncObj/src/Func.cpp
+Func.h
+D:/C++Demo/C++Primer/points/FuncObj/src/Func.h
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+functional
+-
+numeric
+-
+cmath
+-
+

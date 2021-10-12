@@ -1,0 +1,3 @@
+D:/C++Demo/C++Primer/points/FuncObj/build/CMakeFiles/demo.dir
+D:/C++Demo/C++Primer/points/FuncObj/build/CMakeFiles/edit_cache.dir
+D:/C++Demo/C++Primer/points/FuncObj/build/CMakeFiles/rebuild_cache.dir
