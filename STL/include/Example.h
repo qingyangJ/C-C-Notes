@@ -2,6 +2,7 @@
 #include<string>
 #include<vector>
 #include<list>
+#include<map>
 
 
 class Person
@@ -32,3 +33,22 @@ public:
 
 bool com(Dog &d1, Dog &d2);
 void ListSortDemo();
+
+// ·Ö×é
+class Employee {
+public:
+    Employee() {
+
+    }
+    Employee(std::string name, int salary) {
+        this->m_name = name;
+        this->m_salary = salary;
+    }
+    std::string m_name;
+    int m_salary;
+};
+
+void CreateEmployee(std::vector<Employee> &V);
+void SetGroup(std::vector<Employee> &V, std::multimap<int, Employee> &M);
+void ShowByGroup(std::multimap<int, Employee> &M);
+void Grouping();

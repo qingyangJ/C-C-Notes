@@ -13,6 +13,8 @@ using namespace std;
 #include"CStack.h"
 #include"CQueue.h"
 #include"CList.h"
+#include"CSet.h"
+#include"CMap.h"
 #include"Example.h"
 
 
@@ -81,8 +83,19 @@ void test07() {
 void test08() {
     ListSortDemo();
 }
+
+// SET
+void test09() {
+    // CSetConstructor();
+    // Pair();
+    CSetSort();
+}
+// MAP
+void test10() {
+    CMapConstruct();
+}
 int main() {
-    test08();
+    Grouping();
     
     
     return 0;

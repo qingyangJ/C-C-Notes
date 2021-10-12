@@ -4,7 +4,9 @@
 CMakeFiles/demo.dir/main.cpp.obj
  ../include/CDeque.h
  ../include/CList.h
+ ../include/CMap.h
  ../include/CQueue.h
+ ../include/CSet.h
  ../include/CStack.h
  ../include/CString.h
  ../include/CVector.h
@@ -16,9 +18,15 @@ CMakeFiles/demo.dir/src/CDeque.cpp.obj
 CMakeFiles/demo.dir/src/CList.cpp.obj
  ../include/CList.h
  D:/C++Demo/C++Primer/points/STL/src/CList.cpp
+CMakeFiles/demo.dir/src/CMap.cpp.obj
+ ../include/CMap.h
+ D:/C++Demo/C++Primer/points/STL/src/CMap.cpp
 CMakeFiles/demo.dir/src/CQueue.cpp.obj
  ../include/CQueue.h
  D:/C++Demo/C++Primer/points/STL/src/CQueue.cpp
+CMakeFiles/demo.dir/src/CSet.cpp.obj
+ ../include/CSet.h
+ D:/C++Demo/C++Primer/points/STL/src/CSet.cpp
 CMakeFiles/demo.dir/src/CStack.cpp.obj
  ../include/CStack.h
  D:/C++Demo/C++Primer/points/STL/src/CStack.cpp

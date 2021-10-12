@@ -220,6 +220,33 @@ src/CList.cpp.s:
 	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CList.cpp.s
 .PHONY : src/CList.cpp.s
 
+src/CMap.obj: src/CMap.cpp.obj
+
+.PHONY : src/CMap.obj
+
+# target to build an object file
+src/CMap.cpp.obj:
+	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CMap.cpp.obj
+.PHONY : src/CMap.cpp.obj
+
+src/CMap.i: src/CMap.cpp.i
+
+.PHONY : src/CMap.i
+
+# target to preprocess a source file
+src/CMap.cpp.i:
+	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CMap.cpp.i
+.PHONY : src/CMap.cpp.i
+
+src/CMap.s: src/CMap.cpp.s
+
+.PHONY : src/CMap.s
+
+# target to generate assembly for a file
+src/CMap.cpp.s:
+	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CMap.cpp.s
+.PHONY : src/CMap.cpp.s
+
 src/CQueue.obj: src/CQueue.cpp.obj
 
 .PHONY : src/CQueue.obj
@@ -246,6 +273,33 @@ src/CQueue.s: src/CQueue.cpp.s
 src/CQueue.cpp.s:
 	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CQueue.cpp.s
 .PHONY : src/CQueue.cpp.s
+
+src/CSet.obj: src/CSet.cpp.obj
+
+.PHONY : src/CSet.obj
+
+# target to build an object file
+src/CSet.cpp.obj:
+	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CSet.cpp.obj
+.PHONY : src/CSet.cpp.obj
+
+src/CSet.i: src/CSet.cpp.i
+
+.PHONY : src/CSet.i
+
+# target to preprocess a source file
+src/CSet.cpp.i:
+	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CSet.cpp.i
+.PHONY : src/CSet.cpp.i
+
+src/CSet.s: src/CSet.cpp.s
+
+.PHONY : src/CSet.s
+
+# target to generate assembly for a file
+src/CSet.cpp.s:
+	$(MAKE) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/src/CSet.cpp.s
+.PHONY : src/CSet.cpp.s
 
 src/CStack.obj: src/CStack.cpp.obj
 
@@ -373,9 +427,15 @@ help:
 	@echo ... src/CList.obj
 	@echo ... src/CList.i
 	@echo ... src/CList.s
+	@echo ... src/CMap.obj
+	@echo ... src/CMap.i
+	@echo ... src/CMap.s
 	@echo ... src/CQueue.obj
 	@echo ... src/CQueue.i
 	@echo ... src/CQueue.s
+	@echo ... src/CSet.obj
+	@echo ... src/CSet.i
+	@echo ... src/CSet.s
 	@echo ... src/CStack.obj
 	@echo ... src/CStack.i
 	@echo ... src/CStack.s

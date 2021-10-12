@@ -115,10 +115,24 @@ CMakeFiles/demo.dir/src/CList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/CList.cpp.s"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\points\STL\src\CList.cpp -o CMakeFiles\demo.dir\src\CList.cpp.s
 
+CMakeFiles/demo.dir/src/CMap.cpp.obj: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/src/CMap.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
+CMakeFiles/demo.dir/src/CMap.cpp.obj: ../src/CMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo.dir/src/CMap.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\CMap.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\CMap.cpp
+
+CMakeFiles/demo.dir/src/CMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/CMap.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\points\STL\src\CMap.cpp > CMakeFiles\demo.dir\src\CMap.cpp.i
+
+CMakeFiles/demo.dir/src/CMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/CMap.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\points\STL\src\CMap.cpp -o CMakeFiles\demo.dir\src\CMap.cpp.s
+
 CMakeFiles/demo.dir/src/CQueue.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/CQueue.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
 CMakeFiles/demo.dir/src/CQueue.cpp.obj: ../src/CQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo.dir/src/CQueue.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/demo.dir/src/CQueue.cpp.obj"
 	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\CQueue.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\CQueue.cpp
 
 CMakeFiles/demo.dir/src/CQueue.cpp.i: cmake_force
@@ -129,10 +143,24 @@ CMakeFiles/demo.dir/src/CQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/CQueue.cpp.s"
 	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\points\STL\src\CQueue.cpp -o CMakeFiles\demo.dir\src\CQueue.cpp.s
 
+CMakeFiles/demo.dir/src/CSet.cpp.obj: CMakeFiles/demo.dir/flags.make
+CMakeFiles/demo.dir/src/CSet.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
+CMakeFiles/demo.dir/src/CSet.cpp.obj: ../src/CSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/demo.dir/src/CSet.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\CSet.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\CSet.cpp
+
+CMakeFiles/demo.dir/src/CSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo.dir/src/CSet.cpp.i"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\points\STL\src\CSet.cpp > CMakeFiles\demo.dir\src\CSet.cpp.i
+
+CMakeFiles/demo.dir/src/CSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo.dir/src/CSet.cpp.s"
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\points\STL\src\CSet.cpp -o CMakeFiles\demo.dir\src\CSet.cpp.s
+
 CMakeFiles/demo.dir/src/CStack.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/CStack.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
 CMakeFiles/demo.dir/src/CStack.cpp.obj: ../src/CStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/demo.dir/src/CStack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/src/CStack.cpp.obj"
 	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\CStack.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\CStack.cpp
 
 CMakeFiles/demo.dir/src/CStack.cpp.i: cmake_force
@@ -146,7 +174,7 @@ CMakeFiles/demo.dir/src/CStack.cpp.s: cmake_force
 CMakeFiles/demo.dir/src/CString.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/CString.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
 CMakeFiles/demo.dir/src/CString.cpp.obj: ../src/CString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/demo.dir/src/CString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/src/CString.cpp.obj"
 	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\CString.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\CString.cpp
 
 CMakeFiles/demo.dir/src/CString.cpp.i: cmake_force
@@ -160,7 +188,7 @@ CMakeFiles/demo.dir/src/CString.cpp.s: cmake_force
 CMakeFiles/demo.dir/src/CVector.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/CVector.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
 CMakeFiles/demo.dir/src/CVector.cpp.obj: ../src/CVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/demo.dir/src/CVector.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/demo.dir/src/CVector.cpp.obj"
 	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\CVector.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\CVector.cpp
 
 CMakeFiles/demo.dir/src/CVector.cpp.i: cmake_force
@@ -174,7 +202,7 @@ CMakeFiles/demo.dir/src/CVector.cpp.s: cmake_force
 CMakeFiles/demo.dir/src/Example.cpp.obj: CMakeFiles/demo.dir/flags.make
 CMakeFiles/demo.dir/src/Example.cpp.obj: CMakeFiles/demo.dir/includes_CXX.rsp
 CMakeFiles/demo.dir/src/Example.cpp.obj: ../src/Example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/demo.dir/src/Example.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/demo.dir/src/Example.cpp.obj"
 	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\demo.dir\src\Example.cpp.obj -c D:\C++Demo\C++Primer\points\STL\src\Example.cpp
 
 CMakeFiles/demo.dir/src/Example.cpp.i: cmake_force
@@ -190,7 +218,9 @@ demo_OBJECTS = \
 "CMakeFiles/demo.dir/main.cpp.obj" \
 "CMakeFiles/demo.dir/src/CDeque.cpp.obj" \
 "CMakeFiles/demo.dir/src/CList.cpp.obj" \
+"CMakeFiles/demo.dir/src/CMap.cpp.obj" \
 "CMakeFiles/demo.dir/src/CQueue.cpp.obj" \
+"CMakeFiles/demo.dir/src/CSet.cpp.obj" \
 "CMakeFiles/demo.dir/src/CStack.cpp.obj" \
 "CMakeFiles/demo.dir/src/CString.cpp.obj" \
 "CMakeFiles/demo.dir/src/CVector.cpp.obj" \
@@ -202,7 +232,9 @@ demo_EXTERNAL_OBJECTS =
 demo.exe: CMakeFiles/demo.dir/main.cpp.obj
 demo.exe: CMakeFiles/demo.dir/src/CDeque.cpp.obj
 demo.exe: CMakeFiles/demo.dir/src/CList.cpp.obj
+demo.exe: CMakeFiles/demo.dir/src/CMap.cpp.obj
 demo.exe: CMakeFiles/demo.dir/src/CQueue.cpp.obj
+demo.exe: CMakeFiles/demo.dir/src/CSet.cpp.obj
 demo.exe: CMakeFiles/demo.dir/src/CStack.cpp.obj
 demo.exe: CMakeFiles/demo.dir/src/CString.cpp.obj
 demo.exe: CMakeFiles/demo.dir/src/CVector.cpp.obj
@@ -211,7 +243,7 @@ demo.exe: CMakeFiles/demo.dir/build.make
 demo.exe: CMakeFiles/demo.dir/linklibs.rsp
 demo.exe: CMakeFiles/demo.dir/objects1.rsp
 demo.exe: CMakeFiles/demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable demo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++Demo\C++Primer\points\STL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable demo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\demo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

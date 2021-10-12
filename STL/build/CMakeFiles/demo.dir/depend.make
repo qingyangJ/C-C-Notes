@@ -3,7 +3,9 @@
 
 CMakeFiles/demo.dir/main.cpp.obj: ../include/CDeque.h
 CMakeFiles/demo.dir/main.cpp.obj: ../include/CList.h
+CMakeFiles/demo.dir/main.cpp.obj: ../include/CMap.h
 CMakeFiles/demo.dir/main.cpp.obj: ../include/CQueue.h
+CMakeFiles/demo.dir/main.cpp.obj: ../include/CSet.h
 CMakeFiles/demo.dir/main.cpp.obj: ../include/CStack.h
 CMakeFiles/demo.dir/main.cpp.obj: ../include/CString.h
 CMakeFiles/demo.dir/main.cpp.obj: ../include/CVector.h
@@ -16,8 +18,14 @@ CMakeFiles/demo.dir/src/CDeque.cpp.obj: ../src/CDeque.cpp
 CMakeFiles/demo.dir/src/CList.cpp.obj: ../include/CList.h
 CMakeFiles/demo.dir/src/CList.cpp.obj: ../src/CList.cpp
 
+CMakeFiles/demo.dir/src/CMap.cpp.obj: ../include/CMap.h
+CMakeFiles/demo.dir/src/CMap.cpp.obj: ../src/CMap.cpp
+
 CMakeFiles/demo.dir/src/CQueue.cpp.obj: ../include/CQueue.h
 CMakeFiles/demo.dir/src/CQueue.cpp.obj: ../src/CQueue.cpp
+
+CMakeFiles/demo.dir/src/CSet.cpp.obj: ../include/CSet.h
+CMakeFiles/demo.dir/src/CSet.cpp.obj: ../src/CSet.cpp
 
 CMakeFiles/demo.dir/src/CStack.cpp.obj: ../include/CStack.h
 CMakeFiles/demo.dir/src/CStack.cpp.obj: ../src/CStack.cpp
