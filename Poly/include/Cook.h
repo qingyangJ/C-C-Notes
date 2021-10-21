@@ -14,8 +14,7 @@ public:
     void CookFood();
 };
 
-class CookFish:public Cook
-{
+class CookFish:public Cook {
 public:
     CookFish();
     ~CookFish();
